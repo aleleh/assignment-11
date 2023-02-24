@@ -1,0 +1,43 @@
+$text-color: #111111;
+$blue-color: #4A4FF2;
+
+nav {
+    width: 100%;
+    max-width: 70em;
+    height: 2em;
+    color: $text-color;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    & ul {
+        display: flex;
+    }
+
+    & a {
+        text-decoration: none;
+        color: $text-color;
+        font-weight: 700;
+        font-size: 1.125em;
+        padding-left: 0.9375em;
+    }
+
+    & a:hover {
+     color: $blue-color;
+}
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 1.375em;
+
+    & a {
+        padding: 0;
+    }
+
+    & a:hover {
+        color: $blue-color;
+    }
+}

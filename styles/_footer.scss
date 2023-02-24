@@ -1,0 +1,57 @@
+$text-color: #111111;
+$blue-color: #4A4FF2;
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2em;
+    max-width: 70em;
+}
+
+.links-icons-container {
+    display: flex;
+    width: 33%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    & ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    & a {
+        text-decoration: none;
+        color: $text-color;
+        font-size: 1.125em;
+        font-weight: 700;
+        padding-right: 1em;
+    }
+
+    & a:hover {
+        color: $blue-color;
+   }
+
+}
+
+.icons {
+    display: flex;
+    color: $text-color;
+
+    & i {
+        font-size: 1.125em;
+        padding: 0.6em;
+    }
+
+    & a {
+      padding: 0;
+    }
+    
+}
+
+
+
+  
+   

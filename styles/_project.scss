@@ -1,0 +1,88 @@
+$text-color: #111111;
+
+.project-intro-container {
+    width: 100%;
+    max-width: 70em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8em;
+    color: $text-color;
+}
+
+.project-intro-container-left {
+    max-width: 39.6875em;
+
+    & h1 {
+        font-weight: 700;
+        font-size: 2.5em;
+        line-height: 55px; 
+    }
+
+    & p {
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 1.625em;
+        opacity: 0.8;
+    }
+
+}
+
+.project-intro-container-right {
+    width: 20.9375em;
+    height: 21.4375em;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-intro-container-right-detail {
+    height: 2.625em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3em;
+    border-bottom: 1px solid #97979752;
+
+    & h3 {
+        font-weight: 700;
+        font-size: 1.125em;
+        opacity: 0.5;
+    }
+
+    & p {
+        font-weight: 700;
+        font-size: 1.125em;
+    }
+}
+
+.project-large-image {
+    width: 100%;
+    max-width:  70em;
+    height: 41.25em;
+    margin-top: 5em;
+
+    & img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.lorem-and-images-container {
+    color: $text-color;
+
+    & p {
+        margin-top: 5em;
+        font-size: 1em;
+        line-height: 1.625em;
+        max-width: 70em;
+    }
+}
+
+.three-images-container {
+    margin: 5em 0 7em 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 70em;
+}
