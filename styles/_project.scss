@@ -12,6 +12,9 @@ $text-color: #111111;
 
 .project-intro-container-left {
     max-width: 39.6875em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     & h1 {
         font-weight: 700;
