@@ -60,7 +60,11 @@ input[type="text"], input[type="email"], textarea {
   }
   
   .btn input[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: #4a50f2d6;
+  }
+
+  .btn input[type="submit"]:active {
+    transform: scale(0.98);
   }
   
   .map-section {
